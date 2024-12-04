@@ -1,0 +1,47 @@
+body {
+  background: pink;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  height: 390px;
+  width: 380px;
+  background: white;
+  margin-top: 5rem;
+  text-align: center;
+  box-shadow: 0 0 25px 0px;
+  border-radius: 20px;
+}
+
+input {
+  font-size: 1.3rem;
+  padding: 5px;
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.test {
+  width: 120px;
+  height: 40px;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background: rgba(0, 128, 0, 0.563);
+}
+.test:hover {
+  background: rgba(0, 100, 0, 0.57);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.display {
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
